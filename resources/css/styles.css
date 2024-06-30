@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Sarabun", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+}
+
+@font-face {
+    font-family: "Color Emoji";
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
+}
+
+/* Universal Style */
+
+html {
+  font-family: "Sarabun", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Header Content */
+
+.header-content {
+  background-color: rgb(0, 161, 35);
+  background-size: contain;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.header-content nav span {
+  padding: 20px 10px;
+  font-size: 1.25rem;
+}
+
+.header-content nav span a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.header-content nav span a:hover {
+  color: rgb(216, 215, 215);
+  text-decoration: none;
+}
+
+/* Navigation Content */
+
+.nav-content {
+  background-color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 20px;
+  padding-bottom: 150px;
+}
+
+.nav-content p {
+  font-size: 1.50rem;
+  margin-left: 20px;
+  padding-bottom: 35px;
+  text-align: justify;
+}
+
+.nav-content p a {
+  color: blue;
+  text-decoration: none;
+}
+
+.nav-content p a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+.nav-content figure {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav-content figure img {
+  max-width: 159px;
+  max-height: 157px;
+  display: block;
+}
+
+.nav-content .figures {
+  padding-top: 50px;
+}
+
+/* Footer Section */
+
+footer {
+  border-top: 2px solid black;
+  padding-bottom: 25px;
+}
+
+footer h5 {
+  font-size: 1.50rem;
+  text-align: center;
+}
+  
+footer p {
+  text-align: center;
+}
+  
+footer p a {
+  color: rgb(57, 61, 117);
+  text-decoration: none;
+}
+  
+footer p a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+/* Media Adaption */
+
+@media only screen and (max-width: 1024px) {
+  .nav-content {
+    font-size: 1.50rem;
+  }
+
+  .nav-content p {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-content {
+    font-size: 1rem;
+  }
+  
+  .nav-content p {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .nav-content {
+    font-size: 0.75rem;
+  }
+
+  .nav-content p {
+    font-size: 0.5rem;
+  }
+
+  .nav-content figure img {
+    max-width: 100px;
+    max-height: 15px;
+    display: block;
+  }
+}
